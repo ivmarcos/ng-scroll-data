@@ -10,6 +10,7 @@ Scroll pagination for large data using angularjs
 
 Require `ng-scroll-data.min.js` to your project and use this syntax in your templates:
 
+```html
 <ng-scroll-data ng-scroll-step-down="8" ng-scroll-step-up="3" ng-scroll-limit="40" ng-scroll-items="data"/>
 
 <table>
@@ -21,7 +22,7 @@ Require `ng-scroll-data.min.js` to your project and use this syntax in your temp
 			</tr>
 		</tbody>
 </table>
-    
+```
 
 
 
